@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Position Properties Example</title>
+    <style>
+      /* Style for demonstration purposes */
+      .box {
+        width: 200px;
+        height: 100px;
+        padding: 20px;
+        margin-bottom: 20px;
+      }
+
+      .static {
+        position: static;
+        background-color: red;
+      }
+
+      .fixed {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-color: green;
+      }
+
+      .sticky {
+        position: sticky;
+        top: 20px;
+        background-color: blue;
+      }
+
+      .absolute {
+        position: absolute;
+        top: 50px;
+        left: 50px;
+        background-color: red;
+      }
+
+      .relative {
+        position: relative;
+        top: 20px;
+        left: 20px;
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box absolute">Absolute Position</div>
+    <div class="box relative">Relative Position</div>
+    <div class="box static">Static Position</div>
+    <div class="box fixed">Fixed Position</div>
+    <div class="box sticky">Sticky Position</div>
+    <div style="height: 2000px"></div>
+    <!-- Add some content to make the page scroll -->
+  </body>
+</html>
