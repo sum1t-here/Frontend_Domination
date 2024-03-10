@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inline vs Inline-Block vs Block</title>
+    <style>
+      /* Style for demonstration purposes */
+      .inline-example {
+        display: inline;
+        width: 100px;
+        height: 100px;
+        background-color: lightblue;
+        margin: 10px;
+      }
+
+      .inline-block-example {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        background-color: lightgreen;
+        margin: 10px;
+      }
+
+      .block-example {
+        display: block;
+        width: 100px;
+        height: 100px;
+        background-color: lightcoral;
+        margin: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Inline vs Inline-Block vs Block Elements</h2>
+    <p>
+      Inline elements flow with the surrounding content, while block elements
+      create a new line and occupy the full width available. Inline-block
+      elements are similar to inline elements but can have width and height
+      properties.
+    </p>
+
+    <!-- Inline Element -->
+    <span class="inline-example">Inline</span>
+
+    <!-- Inline-Block Element -->
+    <div class="inline-block-example">Inline-Block</div>
+
+    <!-- Block Element -->
+    <div class="block-example">Block</div>
+  </body>
+</html>
