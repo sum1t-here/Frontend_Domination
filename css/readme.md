@@ -94,3 +94,5 @@ display
 - inline
 - inline-block
 - block
+  
+<img width="1521" alt="Screenshot 2024-03-10 at 12 20 03 PM" src="https://github.com/sum1t-here/Frontend_Domination/assets/126807055/1c32f651-277f-40bf-ad27-1a2921b29745">
